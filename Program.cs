@@ -13,6 +13,7 @@ using CSharpOOP_JavaTpoint.InhertanceExample;
 using CSharpOOP_JavaTpoint.Aggregation;
 using CSharpOOP_JavaTpoint.Polymorphism;
 
+
 namespace CSharpOOP_JavaTpoint
 {
     class Program
@@ -186,10 +187,29 @@ namespace CSharpOOP_JavaTpoint
             obj20.work();
             */
 
+            /*
             // CONSTRUCTOR WITH INHERITANCE:
             ConstructorWithInheritance_Cat obj21 = new ConstructorWithInheritance_Cat();
+            */
+            
+            // Polymorhism Example
+            /*
+            RuntimePolymorphism_Animal obj22 = new RuntimePolymorphism_Dog();            
+            obj22.eat();
+            */
 
+            /*
+            RuntimePolymorphism_Shape obj23 = new RuntimePolymorphism_Shape();
+            obj23.draw();
+            RuntimePolymorphism_Shape obj24 = new RuntimePolymorphism_Rectangle();
+            obj24.draw();
+            RuntimePolymorphism_Shape obj25 = new RuntimePolymorphism_Circle();
+            obj25.draw();
+            */
 
+            RuntimePolymorphism_Car obj26 = new RuntimePolymorphism_Truck();
+            Console.WriteLine(obj26.color);
+            
             Console.ReadKey();   
         }
 
