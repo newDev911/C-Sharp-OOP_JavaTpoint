@@ -55,6 +55,7 @@
     <Compile Include="KeywordsExamples\StructsExample.cs" />
     <Compile Include="Polymorphism\MethodOverloadingExample.cs" />
     <Compile Include="Polymorphism\MethodOverridingExample_Animal.cs" />
+    <Compile Include="Polymorphism\RuntimePolymorphism_Animal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesExample\PropertiesExampleClass_A.cs" />
     <Compile Include="PropertiesExample\PropertiesExampleClass_B.cs" />
