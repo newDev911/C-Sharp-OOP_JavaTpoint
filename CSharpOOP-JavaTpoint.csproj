@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractionExample\InterfaceClassExample_Drawable.cs" />
     <Compile Include="Aggregation\AggregationExample_Address.cs" />
     <Compile Include="Classes_Objects\Classes_Objects_Example.cs" />
     <Compile Include="Classes_Objects\DisplayDataThroughMethod.cs" />
@@ -50,9 +51,12 @@
     <Compile Include="Constructor_Destructor\DestructorExample.cs" />
     <Compile Include="InhertanceExample\InheritanceExampleB_Animal.cs" />
     <Compile Include="InhertanceExample\Inheritance_Class_A.cs" />
+    <Compile Include="AbstractionExample\AbstractClassExample_Shape.cs" />
     <Compile Include="KeywordsExamples\BaseExample.cs" />
     <Compile Include="KeywordsExamples\EnumExamples.cs" />
+    <Compile Include="KeywordsExamples\SealedClassExample_Animal.cs" />
     <Compile Include="KeywordsExamples\StructsExample.cs" />
+    <Compile Include="NamespacesExample\NamespaceExp\NamespaceExample_Hello.cs" />
     <Compile Include="Polymorphism\MethodOverloadingExample.cs" />
     <Compile Include="Polymorphism\MethodOverridingExample_Animal.cs" />
     <Compile Include="Polymorphism\RuntimePolymorphism_Animal.cs" />

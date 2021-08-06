@@ -58,7 +58,7 @@ namespace CSharpOOP_JavaTpoint.Polymorphism
         }
     }
 
-    // Runtime Polymorphism can't be acheived by data members in C#
+    // ** Runtime Polymorphism can't be acheived by data members in C#
 
     public class RuntimePolymorphism_Car
     {

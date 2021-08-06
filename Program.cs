@@ -12,7 +12,8 @@ using CSharpOOP_JavaTpoint.PropertiesExample;
 using CSharpOOP_JavaTpoint.InhertanceExample;
 using CSharpOOP_JavaTpoint.Aggregation;
 using CSharpOOP_JavaTpoint.Polymorphism;
-
+using CSharpOOP_JavaTpoint.AbstractionExample;
+using CSharpOOP_JavaTpoint.NamespacesExample.NamespaceExp;
 
 namespace CSharpOOP_JavaTpoint
 {
@@ -70,7 +71,7 @@ namespace CSharpOOP_JavaTpoint
             obj7.display();
             obj7b.display();
             */
-            
+
             /*
             staticFieldExample obj8 = new staticFieldExample(545, "John");
             staticFieldExample obj8b = new staticFieldExample(646, "Jane");
@@ -153,7 +154,7 @@ namespace CSharpOOP_JavaTpoint
             obj15.bark();
             /
              */
-             
+
             /*
             // MULTI-LEVEL INHERITANCE:
             InheritanceExampleB_BabyDog obj16 = new InheritanceExampleB_BabyDog();
@@ -191,13 +192,12 @@ namespace CSharpOOP_JavaTpoint
             // CONSTRUCTOR WITH INHERITANCE:
             ConstructorWithInheritance_Cat obj21 = new ConstructorWithInheritance_Cat();
             */
-            
+
             // Polymorhism Example
-            /*
+            /*    
             RuntimePolymorphism_Animal obj22 = new RuntimePolymorphism_Dog();            
             obj22.eat();
             */
-
             /*
             RuntimePolymorphism_Shape obj23 = new RuntimePolymorphism_Shape();
             obj23.draw();
@@ -207,9 +207,43 @@ namespace CSharpOOP_JavaTpoint
             obj25.draw();
             */
 
+            /*
             RuntimePolymorphism_Car obj26 = new RuntimePolymorphism_Truck();
             Console.WriteLine(obj26.color);
+            */
+            /*
+            // SEALED CLASS EXAMPLE
+            SealedClassExample_Dog obj27 = new SealedClassExample_Dog();
+            obj27.eat(); // Error: "Sealed class cannot be inherit by another class"
+            obj27.bark(); // Error: "Sealed class cannot be inherit by another class"
+            */
+
+            /*
+             // ABSTRACTION EXAMPLE:
+            AbstractClassExample_Shape obj28 = new Rectangle();
+            obj28.draw(); // Calling overridden method
+
+            AbstractClassExample_Shape obj29 = new Circle();
+            obj29.draw(); // Calling overridden method
             
+
+            // INTERFACE EXAMPLE
+            InterfaceClassExample_Drawable obj30 = new Rectangle2();
+            obj30.draw();
+
+            InterfaceClassExample_Drawable obj31 = new Circle2();
+            obj31.draw();
+
+            */
+
+            // NAMESPACE EXAMPLE:
+            // Example 1:
+            NamespaceExample_Hello obj32 = new NamespaceExample_Hello();
+            obj32.dis_Msg();
+            
+            // Example 2:
+            Namespace_a.NamespaceExample_First obj33 = new Namespace_a.NamespaceExample_First();
+
             Console.ReadKey();   
         }
 

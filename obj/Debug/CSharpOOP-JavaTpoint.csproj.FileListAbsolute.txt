@@ -4,3 +4,9 @@ H:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\bin\
 H:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\bin\Debug\CSharpOOP-JavaTpoint.pdb
 H:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\obj\Debug\CSharpOOP-JavaTpoint.exe
 H:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\obj\Debug\CSharpOOP-JavaTpoint.pdb
+G:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\bin\Debug\CSharpOOP-JavaTpoint.exe.config
+G:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\bin\Debug\CSharpOOP-JavaTpoint.exe
+G:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\bin\Debug\CSharpOOP-JavaTpoint.pdb
+G:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\obj\Debug\CSharpOOP-JavaTpoint.csprojResolveAssemblyReference.cache
+G:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\obj\Debug\CSharpOOP-JavaTpoint.exe
+G:\Tutorials\C#\Exercises\JavaTpoint\CSharp-JavaTpoint\CSharpOOP-JavaTpoint\obj\Debug\CSharpOOP-JavaTpoint.pdb
