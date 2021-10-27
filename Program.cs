@@ -14,6 +14,8 @@ using CSharpOOP_JavaTpoint.Aggregation;
 using CSharpOOP_JavaTpoint.Polymorphism;
 using CSharpOOP_JavaTpoint.AbstractionExample;
 using CSharpOOP_JavaTpoint.NamespacesExample.NamespaceExp;
+using CSharpOOP_JavaTpoint.AccessModifiers;
+using CSharpOOP_JavaTpoint.Encapuslation;
 
 namespace CSharpOOP_JavaTpoint
 {
@@ -236,6 +238,7 @@ namespace CSharpOOP_JavaTpoint
 
             */
 
+            /*
             // NAMESPACE EXAMPLE:
             // Example 1:
             NamespaceExample_Hello obj32 = new NamespaceExample_Hello();
@@ -243,6 +246,67 @@ namespace CSharpOOP_JavaTpoint
             
             // Example 2:
             Namespace_a.NamespaceExample_First obj33 = new Namespace_a.NamespaceExample_First();
+            obj33.dis_Msg();
+            */
+
+
+            // ACCESS MODIFIERS:
+            /*
+            // Public Access
+            PublicAccessSpecifier obj34 = new PublicAccessSpecifier();
+            // Access Public Variable
+            Console.WriteLine("Hello " + obj34.name);
+            // Access Public Function
+            obj34.MsgFun("Mike Dane");
+           */
+
+            /*
+           // Protected Access
+           ProtectedAccessSpecifier obj35 = new ProtectedAccessSpecifier();
+           // Access Protected Variable
+           Console.WriteLine("Hello " + obj35.name); // * It'll throw an error
+           // Access Protected Function
+           obj35.MsgFun("Mike Dane"); // * Not Accessible
+           */
+            /*
+            // Protected Access 2
+            ProtectedAccess2 obj36 = new ProtectedAccess2();
+            obj36.printName();
+            obj36.printMsg();
+            */
+
+            // INTERNAL ACCESS SPECIFIER
+            /*
+            InternalAccessSpecifier obj37 = new InternalAccessSpecifier();
+            // Accessing 'internal' varialbe
+            Console.WriteLine("Hello: " + obj37.name);
+
+            // Accessing 'internal' function
+            obj37.Msg("Dan Jan");
+            */
+
+
+            /*
+            // PROTECTED INTERNAL ACCESS SPECIFIER
+            ProtectedInternalSpecifier obj38 = new ProtectedInternalSpecifier();
+            Console.WriteLine("Username: " + obj38.name2);
+            obj38.newMsg("Test Message");
+            */
+
+
+            // ** PRIVATE ACCESS MODIFIER can be accessed within 'main()' function if 'main()' function and private variable or function are in the same class.
+
+
+            // ENCAPSULATION
+            EncapsulationExample_Student obj39 = new EncapsulationExample_Student();
+            obj39.ID = "44";
+            obj39.Name = "Doe Moe";
+            obj39.Email = "doemoe445@gmail.com";
+
+            Console.WriteLine("Student ID: " + obj39.ID);
+            Console.WriteLine("Student Name: " + obj39.Name);
+            Console.WriteLine("Student Email: " + obj39.Email);
+
 
             Console.ReadKey();   
         }
