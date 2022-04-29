@@ -307,6 +307,8 @@ namespace CSharpOOP_JavaTpoint
             Console.WriteLine("Student Name: " + obj39.Name);
             Console.WriteLine("Student Email: " + obj39.Email);
 
+            // SKIPPING TOPIC: STRING
+            
 
             Console.ReadKey();   
         }
