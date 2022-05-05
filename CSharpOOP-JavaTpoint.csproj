@@ -53,6 +53,10 @@
     <Compile Include="Constructor_Destructor\ConstructorWithInheritance_Animal.cs" />
     <Compile Include="Constructor_Destructor\DestructorExample.cs" />
     <Compile Include="Encapuslation\EncapsulationExample_Student.cs" />
+    <Compile Include="Exception Handling\Checked_Unchecked.cs" />
+    <Compile Include="Exception Handling\SystemExceptionExample.cs" />
+    <Compile Include="Exception Handling\TryCatchExample.cs" />
+    <Compile Include="Exception Handling\UserDefinedExceptionExample.cs" />
     <Compile Include="InhertanceExample\InheritanceExampleB_Animal.cs" />
     <Compile Include="InhertanceExample\Inheritance_Class_A.cs" />
     <Compile Include="AbstractionExample\AbstractClassExample_Shape.cs" />
@@ -80,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AccessModifiers\AccessModifiers.txt" />
+    <Content Include="Exception Handling\ExceptionHandling.txt" />
     <Content Include="ReleaseNotes.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

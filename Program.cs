@@ -16,6 +16,7 @@ using CSharpOOP_JavaTpoint.AbstractionExample;
 using CSharpOOP_JavaTpoint.NamespacesExample.NamespaceExp;
 using CSharpOOP_JavaTpoint.AccessModifiers;
 using CSharpOOP_JavaTpoint.Encapuslation;
+using CSharpOOP_JavaTpoint.Exception_Handling;
 
 namespace CSharpOOP_JavaTpoint
 {
@@ -298,6 +299,7 @@ namespace CSharpOOP_JavaTpoint
 
 
             // ENCAPSULATION
+            /*
             EncapsulationExample_Student obj39 = new EncapsulationExample_Student();
             obj39.ID = "44";
             obj39.Name = "Doe Moe";
@@ -306,10 +308,53 @@ namespace CSharpOOP_JavaTpoint
             Console.WriteLine("Student ID: " + obj39.ID);
             Console.WriteLine("Student Name: " + obj39.Name);
             Console.WriteLine("Student Email: " + obj39.Email);
+            */
 
-            // SKIPPING TOPIC: STRING
+
+            // ------------------------------- SKIPPING TOPIC: STRING
+
+            // TRY CATCH HANDLING
             
+            TryCatchExample obj40 = new TryCatchExample();
 
+            int val1 = 10;
+            int val2 = 0;
+
+            //  Without Try/Catch
+            // obj40.division_WithoutTryCatch(val1, val2); // Code with error
+
+            //  With Try/Catch
+            //obj40.division_WithTryCatch(val1, val2);
+
+            //  Without Try/Catch/Finally
+            //obj40.division_WithTryCatch_Finally(val1, val2);
+
+            /*
+            UserDefinedExceptionExample obj41 = new UserDefinedExceptionExample();
+            // Example 1 - Without Try/Catch
+            //obj41.validate(val1); 
+            
+            // Example 2 - With Try/Catchs
+            obj41.validate_WithTryCatch(val2); 
+            */
+
+            /*
+            Checked_Unchecked obj42 = new Checked_Unchecked();
+
+            // Example 1 - No Exception, Wrong Output
+            //obj42.checkedExample();
+
+            // Example 2 - Unhandled Exception
+            //obj42.checkedExample_checkedKeyword();
+
+            // Example 3 - No Unhandled Exception
+            //obj42.unCheckedExample_uncheckedKeyword();
+            */
+
+            /*
+            SystemExceptionExample obj43 = new SystemExceptionExample();
+            obj43.systemExceptionExampleMethod();
+            */
             Console.ReadKey();   
         }
 
