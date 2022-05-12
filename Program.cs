@@ -17,6 +17,7 @@ using CSharpOOP_JavaTpoint.NamespacesExample.NamespaceExp;
 using CSharpOOP_JavaTpoint.AccessModifiers;
 using CSharpOOP_JavaTpoint.Encapuslation;
 using CSharpOOP_JavaTpoint.Exception_Handling;
+using CSharpOOP_JavaTpoint.StringExample;
 
 namespace CSharpOOP_JavaTpoint
 {
@@ -214,12 +215,28 @@ namespace CSharpOOP_JavaTpoint
             RuntimePolymorphism_Car obj26 = new RuntimePolymorphism_Truck();
             Console.WriteLine(obj26.color);
             */
+
+
+            // Sealed Example
             /*
-            // SEALED CLASS EXAMPLE
             SealedClassExample_Dog obj27 = new SealedClassExample_Dog();
             obj27.eat(); // Error: "Sealed class cannot be inherit by another class"
             obj27.bark(); // Error: "Sealed class cannot be inherit by another class"
             */
+            /*
+            SealedClassExample_Dog obj27 = new SealedClassExample_Dog();            
+            obj23.bark();
+            */
+
+            /*
+            SealedMethodExample_Dog obj28 = new SealedMethodExample_Dog();
+            obj28.eat();
+            obj28.run();
+            */
+            /*
+            SealedMethodExample_Puppy obj29 = new SealedMethodExample_Puppy();
+            obj29.eat();
+            obj29.run();   
 
             /*
              // ABSTRACTION EXAMPLE:
@@ -309,12 +326,10 @@ namespace CSharpOOP_JavaTpoint
             Console.WriteLine("Student Name: " + obj39.Name);
             Console.WriteLine("Student Email: " + obj39.Email);
             */
-
-
-            // ------------------------------- SKIPPING TOPIC: STRING
+            
 
             // TRY CATCH HANDLING
-            
+
             TryCatchExample obj40 = new TryCatchExample();
 
             int val1 = 10;
@@ -355,6 +370,19 @@ namespace CSharpOOP_JavaTpoint
             SystemExceptionExample obj43 = new SystemExceptionExample();
             obj43.systemExceptionExampleMethod();
             */
+
+            // String Example
+            StringExamples obj30 = new StringExamples();
+            /*
+            char[] ch = { 'c', 's', 'h', 'a', 'r', 'p' };
+            obj30.stringExample_CharToString(ch);
+            */
+
+            /*
+            string s1 = "Hello ";
+            obj30.stringExample_Clone(s1);
+            */
+
             Console.ReadKey();   
         }
 
